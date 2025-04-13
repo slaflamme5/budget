@@ -56,7 +56,7 @@ amt_every_n_months <- function(start_date, amount, n = 1L, end_date = as.Date(NA
   )
 
   data.table(
-    date = start_date %m+% months(n * (1:n_months)),
+    date = start_date %m+% months(n * (0:n_months)),
     amount = amount
   )[
     date > Sys.Date() & date <= fcoalesce(end_date, getOption("budget_end_date"))
