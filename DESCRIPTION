@@ -1,6 +1,6 @@
 Package: budget
 Title: Budget
-Version: 1.0.2
+Version: 1.0.3
 Authors@R: 
   person("Simon", "Laflamme", , "simon.laflamme.5@gmail.com", role = c("aut", "cre"))
 Description: Fonctions utilitaires pour budget.
